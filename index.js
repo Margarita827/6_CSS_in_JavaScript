@@ -1,8 +1,8 @@
-function handleClick() {
-    alert("Hola");
-}
 
 
-let buttonElement = document.querySelector("#challenge-1");
-buttonElement.addEventListener("click", handleClick);
-console.log(buttonElement.attributes.class);
+let challenge1Button = document.querySelector("#challenge-1");
+challengeButton.setAttribute("disabled", "disabled");
+
+let challenge2Button = document.querySelector("#challenge-2");
+challenge2Button.style.background = "green";
+
