@@ -5,3 +5,4 @@ function handleClick() {
 
 let buttonElement = document.querySelector("#challenge-1");
 buttonElement.addEventListener("click", handleClick);
+console.log(buttonElement.attributes.class);
